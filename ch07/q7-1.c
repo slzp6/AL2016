@@ -1,4 +1,4 @@
-/* code: q7-1.c   (v1.16.01) */
+/* code: q7-1.c   (v1.20.00) */
 #include <stdio.h>
 #include <stdlib.h>
 #include <search.h>
@@ -7,12 +7,14 @@
 #define NEW_ITEMS  1
 
 /* ------------------------------------------- */
-int compare (int *x, int *y) {
+int compare (int *x, int *y)
+{
   return (*x - *y);
 }
 
 /* ------------------------------------------- */
-void print_array (int array[], int n) {
+void print_array (int array[], int n)
+{
   int i;
   for (i = 0; i < n; i++) {
     printf ("%d ", array[i]);
@@ -21,7 +23,8 @@ void print_array (int array[], int n) {
 }
 
 /* ------------------------------------------- */
-int main () {
+int main ()
+{
   int key;
   int *r;
   size_t elements, elements_t;
