@@ -1,2 +1,6 @@
 12 19 70 44 16 38 10 30 28 98 
-Found: 16
+elements: 10
+elements: 11
+Not found 17
+The item added at the end of the array.
+12 19 70 44 16 38 10 30 28 98 17 
